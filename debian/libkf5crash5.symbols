@@ -1,0 +1,14 @@
+# SymbolsHelper-Confirmed: 4.95.0 amd64
+libKF5Crash.so.5 libkf5crash5 #MINVER#
+ _ZN6KCrash12crashHandlerEv@Base 4.95.0
+ _ZN6KCrash15loadedByKdeinitE@Base 4.95.0
+ _ZN6KCrash15setCrashHandlerEPFviE@Base 4.95.0
+ _ZN6KCrash16isDrKonqiEnabledEv@Base 4.95.0
+ _ZN6KCrash17setDrKonqiEnabledEb@Base 4.95.0
+ _ZN6KCrash18setApplicationNameERK7QString@Base 4.95.0
+ _ZN6KCrash18setApplicationPathERK7QString@Base 4.95.0
+ _ZN6KCrash19defaultCrashHandlerEi@Base 4.95.0
+ _ZN6KCrash21emergencySaveFunctionEv@Base 4.95.0
+ _ZN6KCrash24setEmergencySaveFunctionEPFviE@Base 4.95.0
+ _ZN6KCrash8setFlagsE6QFlagsINS_9CrashFlagEE@Base 4.95.0
+ strlcpy@Base 4.95.0
