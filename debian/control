@@ -4,20 +4,20 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules, qtbase5-dev, libqt5x11extras-dev, libkf5coreaddons-dev, libkf5windowsystem-dev
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, libqt5x11extras-dev, libkf5coreaddons-dev (>= 4.96.0), libkf5windowsystem-dev (>= 4.96.0), xauth, xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kcrash
 
 Package: libkf5crash-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5crash5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5crash4 (= ${binary:Version}), ${misc:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
  .
  Contains development files for kcrash.
  
-Package: libkf5crash5
+Package: libkf5crash4
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -25,12 +25,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
 
-Package: libkf5crash5-dbg
+Package: libkf5crash4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5crash5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5crash4 (= ${binary:Version}), ${misc:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
  .
