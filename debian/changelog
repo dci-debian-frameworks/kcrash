@@ -3,6 +3,8 @@ kcrash (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
   * Rename library package for soname 5
   * New upstream beta release
   * Fix build-depends
+  * Add kubuntu_workaround-test-failure.diff to workaround failing test,
+    upstream e-mailed
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:24:56 +0000
 
