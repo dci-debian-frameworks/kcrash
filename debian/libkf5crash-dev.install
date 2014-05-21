@@ -1,4 +1,4 @@
 usr/include/KF5/
-usr/lib/*/libKF5Crash.so
 usr/lib/*/cmake/KF5Crash/
+usr/lib/*/libKF5Crash.so
 usr/share/qt5/mkspecs/modules/qt_KCrash.pri
