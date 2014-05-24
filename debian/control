@@ -16,8 +16,16 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kcrash
 
-Package: libkf5crash5
+Package: libkf5crash-dev
 Section: libdevel
+Architecture: any
+Depends: libkf5crash5 (= ${binary:Version}), ${misc:Depends}
+Description: Support for application crash analysis and bug report from apps
+ KCrash provides support for intercepting and handling application crashes.
+ .
+ Contains development files for kcrash.
+
+Package: libkf5crash5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for application crash analysis and bug report from apps
