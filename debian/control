@@ -19,7 +19,10 @@ Homepage: https://projects.kde.org/projects/frameworks/kcrash
 Package: libkf5crash-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5crash5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5crash5 (= ${binary:Version}), ${misc:Depends},
+ libkf5coreaddons-dev,
+ libkf5windowsystem-dev,
+ qtbase5-dev
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
  .
