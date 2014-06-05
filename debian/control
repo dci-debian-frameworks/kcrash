@@ -35,7 +35,6 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5crash5-dbg
 Priority: extra
