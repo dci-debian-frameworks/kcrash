@@ -1,3 +1,11 @@
+kcrash (5.0.0-0ubuntu1.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 18 Jul 2014 16:39:50 +0200
+
 kcrash (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial stable upstream release
