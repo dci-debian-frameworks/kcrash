@@ -1,6 +1,5 @@
-kcrash (5.0.0-0ubuntu1.1) UNRELEASED; urgency=medium
+kcrash (5.0.0-0ubuntu2) UNRELEASED; urgency=medium
 
-  * Non-maintainer upload.
   * Update libraries *.install paths so a soname bump doesn't go
     unnoticed.
 
