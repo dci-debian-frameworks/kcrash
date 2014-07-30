@@ -14,6 +14,7 @@ Build-Depends: cmake,
                xauth,
                xvfb
 Standards-Version: 3.9.5
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kcrash
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kcrash
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kcrash

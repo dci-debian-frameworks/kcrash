@@ -1,7 +1,11 @@
 kcrash (5.0.0-0ubuntu2) UNRELEASED; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
     unnoticed.
+
+  [ Rohan Garg ]
+  * Convert to autopkgtests
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 18 Jul 2014 16:39:50 +0200
 
