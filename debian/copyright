@@ -3,13 +3,17 @@ Upstream-Name: kcrash
 Source: https://projects.kde.org/projects/frameworks/kcrash
 
 Files: *
-       debian/*
-Copyright: © 2002 Dirk Mueller <mueller@kde.org>
-           © 2000 Tom Braun <braunt@fh-konstanz.de>
-           © 2000 Timo Hummel <timo.hummel@sap.com>
-           © 2010 George Kiagiadakis <kiagiadakis.george@gmail.com>
-           ©  Todd C. Miller <todd.miller@courtesan.com>
-           2014 Scarlett Clark <sgclark@kubuntu.org>
+Copyright: 2013, David Faure <faure@kde.org>
+           2010, George Kiagiadakis <kiagiadakis.george@gmail.com>
+           2009, KDE e.V
+           2000, Timo Hummel <timo.hummel@sap.com>
+           2000, Tom Braun <braunt@fh-konstanz.de>
+License: LGPL-2+
+
+Files: debian/*
+Copyright: 2014, Scarlett Clark <sgclark@kubuntu.org>
+License: LGPL-2+
+
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
