@@ -1,3 +1,3 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/kcrash-(.*)\.tar\.xz
-http://download.kde.org/stable/frameworks/([\d\.]*)/kcrash-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/(?:[\d.]+)/kcrash-([\d.]+)\.tar\.xz
+http://download.kde.org/stable/frameworks/(?:[\d.]+)/kcrash-([\d.]+)\.tar\.xz
