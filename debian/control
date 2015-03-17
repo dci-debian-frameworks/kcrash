@@ -13,7 +13,7 @@ Build-Depends: cmake,
                qtbase5-dev,
                xauth,
                xvfb
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kcrash
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kcrash.git
