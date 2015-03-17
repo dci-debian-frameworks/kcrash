@@ -16,7 +16,7 @@ Build-Depends: cmake,
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kcrash
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kcrash.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kcrash.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kcrash.git
 
 Package: libkf5crash-dev
