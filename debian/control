@@ -8,10 +8,10 @@ Build-Depends: cmake (>= 2.8.12),
                extra-cmake-modules (>= 5.10.0~),
                libkf5coreaddons-dev (>= 5.10.0~),
                libkf5windowsystem-dev (>= 5.10.0~),
-               libqt5x11extras5-dev (>= 5.2.0),
+               libqt5x11extras5-dev (>= 5.4),
                libx11-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0),
+               qtbase5-dev (>= 5.4),
                xauth,
                xvfb
 Standards-Version: 3.9.6
@@ -26,7 +26,7 @@ Architecture: any
 Depends: libkf5coreaddons-dev (>= 5.10.0~),
          libkf5crash5 (= ${binary:Version}),
          libkf5windowsystem-dev (>= 5.10.0~),
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
