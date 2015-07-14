@@ -1,13 +1,9 @@
 kcrash (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  [ Scarlett Clark ]
   * New upstream release
   * Fix merge, remove unused broken backport.
 
-  [ Jonathan Riddell ]
-  * new upstream release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Jul 2015 22:57:18 +0200
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:01:35 -0700
 
 kcrash (5.11.0-1) unstable; urgency=medium
 
