@@ -1,5 +1,6 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0+git20151004.0345+15.10 amd64 i386
 libKF5Crash.so.5 libkf5crash5 #MINVER#
+ _ZN6KCrash10initializeEv@Base 5.14.0+git20151004.0345+15.10
  _ZN6KCrash12crashHandlerEv@Base 4.96.0
  _ZN6KCrash15loadedByKdeinitE@Base 4.96.0
  _ZN6KCrash15setCrashHandlerEPFviE@Base 4.96.0
