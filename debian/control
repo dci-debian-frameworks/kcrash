@@ -17,7 +17,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kcrash
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kcrash.git
-Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/kcrash.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kcrash.git
 
 Package: libkf5crash-dev
 Section: libdevel
