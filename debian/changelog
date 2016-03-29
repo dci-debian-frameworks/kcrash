@@ -1,3 +1,20 @@
+kcrash (5.20.0-1~1.gbp3beea8) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3beea864cb6368c8f0d73239dfa307de7145296e **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 29 Mar 2016 19:31:22 +0200
+
 kcrash (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
