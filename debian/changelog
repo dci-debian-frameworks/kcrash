@@ -1,6 +1,6 @@
-kcrash (5.20.0-1~6.gbp4f57c8) UNRELEASED; urgency=medium
+kcrash (5.21.0-1~1.gbpd3ef1d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4f57c8c14be3adff8bc39c290f9c671026d1a17a **
+  ** SNAPSHOT build @d3ef1d9d6d6776cf84f144f7903282d0c9026c13 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -17,8 +17,14 @@ kcrash (5.20.0-1~6.gbp4f57c8) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:26:29 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:26:17 +0200
 
 kcrash (5.19.0-1) experimental; urgency=medium
 
