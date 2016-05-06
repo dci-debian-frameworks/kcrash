@@ -1,6 +1,6 @@
-kcrash (5.21.0-1~1.gbpd3ef1d) UNRELEASED; urgency=medium
+kcrash (5.21.0-1~2.gbp6f9232) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d3ef1d9d6d6776cf84f144f7903282d0c9026c13 **
+  ** SNAPSHOT build @6f923210c874788fe2e7ebfc5b3c61ad7a27b97d **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -10,6 +10,7 @@ kcrash (5.21.0-1~1.gbpd3ef1d) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * UNRELEASED
@@ -24,7 +25,7 @@ kcrash (5.21.0-1~1.gbpd3ef1d) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:26:17 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 06 May 2016 20:35:38 +0200
 
 kcrash (5.19.0-1) experimental; urgency=medium
 
