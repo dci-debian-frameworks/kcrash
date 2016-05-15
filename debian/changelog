@@ -1,3 +1,11 @@
+kcrash (5.22.0-1~1.gbpcb1784) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @cb17844afaa7a313706ce50426fa4dafad78559c **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 16:26:19 +0200
+
 kcrash (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
