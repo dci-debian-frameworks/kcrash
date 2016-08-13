@@ -1,10 +1,11 @@
-kcrash (5.24.0-1~1.gbp7bc2e5) UNRELEASED; urgency=medium
+kcrash (5.25.0-1~1.gbp3d9550) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7bc2e5b1d051f2684a731ac165a35d48ae96f796 **
+  ** SNAPSHOT build @3d9550d5774394d7a028745434616fa5b6166027 **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 16:26:20 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 16:26:11 +0200
 
 kcrash (5.23.0-1) unstable; urgency=medium
 
