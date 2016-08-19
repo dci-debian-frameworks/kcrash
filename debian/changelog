@@ -1,17 +1,12 @@
-kcrash (5.25.0-1~2.gbp22a1fe) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @22a1fefa8682707c3e7e3ac98e4a3f35c1c09cf5 **
+kcrash (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @3d9550d5774394d7a028745434616fa5b6166027 **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:26:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 19 Aug 2016 09:09:37 +0200
 
 kcrash (5.23.0-1) unstable; urgency=medium
 
