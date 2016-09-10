@@ -1,3 +1,11 @@
+kcrash (5.26.0-1~1.gbp407634) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4076341f09ebc54b4e9d569870032bd979c2f04f **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 16:26:44 +0200
+
 kcrash (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
