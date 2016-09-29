@@ -1,10 +1,12 @@
-kcrash (5.26.0-1~1.gbp407634) UNRELEASED; urgency=medium
+kcrash (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @4076341f09ebc54b4e9d569870032bd979c2f04f **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 16:26:44 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:58:56 +0200
 
 kcrash (5.25.0-1) unstable; urgency=medium
 
