@@ -5,9 +5,9 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.25.0~),
-               libkf5coreaddons-dev (>= 5.25.0~),
-               libkf5windowsystem-dev (>= 5.25.0~),
+               extra-cmake-modules (>= 5.26.0~),
+               libkf5coreaddons-dev (>= 5.26.0~),
+               libkf5windowsystem-dev (>= 5.26.0~),
                libqt5x11extras5-dev (>= 5.5.0~),
                libx11-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
@@ -22,16 +22,16 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kcrash.git
 Package: libkf5crash-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5coreaddons-dev (>= 5.25.0~),
+Depends: libkf5coreaddons-dev (>= 5.26.0~),
          libkf5crash5 (= ${binary:Version}),
-         libkf5windowsystem-dev (>= 5.25.0~),
+         libkf5windowsystem-dev (>= 5.26.0~),
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
  .
  Contains development files for kcrash.
-Breaks: kded5-dev (<< 5.25), libkf5kdelibs4support-dev (<< 5.25)
+Breaks: kded5-dev (<< 5.26), libkf5kdelibs4support-dev (<< 5.26)
 
 Package: libkf5crash5
 Architecture: any
@@ -39,9 +39,9 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
 Multi-Arch: same
-Breaks: baloo-kf5 (<< 5.25),
-        kded5 (<< 5.25),
-        kinit (<< 5.25),
-        libkf5globalaccel-bin (<< 5.25),
-        libkf5kdelibs4support5 (<< 5.25),
-        libkf5service-bin (<< 5.25)
+Breaks: baloo-kf5 (<< 5.26),
+        kded5 (<< 5.26),
+        kinit (<< 5.26),
+        libkf5globalaccel-bin (<< 5.26),
+        libkf5kdelibs4support5 (<< 5.26),
+        libkf5service-bin (<< 5.26)
