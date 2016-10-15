@@ -1,10 +1,13 @@
-kcrash (5.27.0-1~1.gbp573e50) UNRELEASED; urgency=medium
+kcrash (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @573e5087141a7b640efa5c53574af50598d949e2 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 16:26:40 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 16:59:36 +0200
 
 kcrash (5.26.0-1) unstable; urgency=medium
 
