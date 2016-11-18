@@ -1,10 +1,13 @@
-kcrash (5.28.0-1~1.gbpbde5f8) UNRELEASED; urgency=medium
+kcrash (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @bde5f8877598df0c26d67294f9200ff574f71ba8 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 16:27:05 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:03:39 +0100
 
 kcrash (5.27.0-1) unstable; urgency=medium
 
