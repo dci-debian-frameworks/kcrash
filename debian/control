@@ -31,7 +31,7 @@ Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
  .
  Contains development files for kcrash.
-Breaks: kded5-dev (<< 5.28), libkf5kdelibs4support-dev (<< 5.28)
+Breaks: kded5-dev (<< 5.35), libkf5kdelibs4support-dev (<< 5.35)
 
 Package: libkf5crash5
 Architecture: any
@@ -39,9 +39,9 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
 Multi-Arch: same
-Breaks: baloo-kf5 (<< 5.28),
-        kded5 (<< 5.28),
-        kinit (<< 5.28),
-        libkf5globalaccel-bin (<< 5.28),
-        libkf5kdelibs4support5 (<< 5.28),
-        libkf5service-bin (<< 5.28)
+Breaks: baloo-kf5 (<< 5.35),
+        kded5 (<< 5.35),
+        kinit (<< 5.35),
+        libkf5globalaccel-bin (<< 5.35),
+        libkf5kdelibs4support5 (<< 5.35),
+        libkf5service-bin (<< 5.35)
