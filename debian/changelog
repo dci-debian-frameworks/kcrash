@@ -1,10 +1,13 @@
-kcrash (5.35.0-1~1) UNRELEASED; urgency=medium
+kcrash (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
   * Bump Standards-Version to 4.0.0.
   * Update build-deps and deps with the info from cmake
   * Bump group breaks (5.35)
+  * Let autopkgtest take care of the build required for the test
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Harald Sitter ]
   * qt5.7 now wants c++11
@@ -13,7 +16,7 @@ kcrash (5.35.0-1~1) UNRELEASED; urgency=medium
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jul 2017 16:32:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:41:46 +0200
 
 kcrash (5.28.0-1) unstable; urgency=medium
 
