@@ -46,6 +46,7 @@ Description: Support for application crash analysis and bug report from apps (do
  KCrash provides support for intercepting and handling application crashes.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5crash5
 Architecture: any
