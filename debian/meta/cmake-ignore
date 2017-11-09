@@ -1,2 +1,4 @@
 # disabled by us until someone implements https://phabricator.kde.org/T3891
-Core Pattern Raising
+- Core Pattern Raising
+- QCH , API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop):
+  series: xenial
