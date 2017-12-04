@@ -33,6 +33,15 @@ Description: Support for application crash analysis and bug report from apps
  Contains development files for kcrash.
 Breaks: kded5-dev (<< 5.28), libkf5kdelibs4support-dev (<< 5.28)
 
+Package: libkf5krash-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library for extracting file metadata
+ This library is for extracting file metadata.
+ .
+ kkrash is part of the KDE frameworks.
+
 Package: libkf5crash5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
