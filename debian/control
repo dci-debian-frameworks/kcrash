@@ -44,7 +44,8 @@ Description: library for extracting file metadata
 
 Package: libkf5crash5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: Depends: libkf5krash-data (= ${source:Version})
+${misc: Depends}, ${shlibs:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
 Multi-Arch: same
