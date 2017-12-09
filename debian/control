@@ -35,8 +35,7 @@ Breaks: kded5-dev (<< 5.28), libkf5kdelibs4support-dev (<< 5.28)
 
 Package: libkf5crash5
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for application crash analysis and bug report from apps
  KCrash provides support for intercepting and handling application crashes.
 Multi-Arch: same
